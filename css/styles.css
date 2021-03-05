@@ -285,6 +285,12 @@ nav .lineBlack .linksBlack p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
 }
+.buttonLargeCircle a {
+  font-size: 19px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  text-decoration: none;
+}
 
 .homeBG {
   height: 500px;
@@ -560,10 +566,6 @@ nav .lineBlack .linksBlack p {
   font-family: proxNovaLight;
   src: url(../assets/fonts/Proxima-Nova-Thin.ttf);
 }
-@font-face {
-  font-family: proxNovaReg;
-  src: url(../assets/fonts/ProximaNova-Regular.ttf);
-}
 .aboutContent {
   min-height: 950px;
   width: 100%;
@@ -694,7 +696,116 @@ nav .lineBlack .linksBlack p {
   font-family: proxNovaLight;
   src: url(../assets/fonts/Proxima-Nova-Thin.ttf);
 }
+.tourBG {
+  height: 250px;
+  width: auto;
+}
+.tourBG .tourImage {
+  height: 200px;
+  max-width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tours-header.jpg);
+}
+.tourBG .tourImage h1 {
+  font-size: 60px;
+  font-family: proxNovaLight;
+  color: white;
+  margin-top: 50px;
+}
+
+.toursContent {
+  min-height: 1100px;
+  width: auto;
+}
+.toursContent .tourGallery {
+  min-height: 1000px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.toursContent .tourGallery .tourRow {
+  min-height: 300px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.toursContent .tourGallery .tourRow .tour {
+  height: 300px;
+  width: 240px;
+  text-align: center;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.toursContent .tourGallery .tourRow .tour h1 {
+  font-size: 45px;
+  font-family: proxNovaLight;
+  margin-top: 50px;
+}
+.toursContent .tourGallery .tourRow .tour h2 {
+  font-size: 25px;
+  font-family: proxNovaLight;
+  margin-top: -16px;
+  margin-bottom: 62px;
+}
+.toursContent .tourGallery .tourRow .tour h3 {
+  font-size: 40px;
+  font-family: proxNovaLight;
+  margin-top: 50px;
+  margin-bottom: 21px;
+}
+.toursContent .tourGallery .tourRow .img1 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tour-01.jpg);
+}
+.toursContent .tourGallery .tourRow .img2 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tour-02.jpg);
+}
+.toursContent .tourGallery .tourRow .img3 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tour-03.jpg);
+}
+.toursContent .tourGallery .tourRow .img4 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tour-04.jpg);
+}
+.toursContent .tourGallery .tourRow .img5 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tour-05.jpg);
+}
+.toursContent .tourGallery .tourRow .img6 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tour-06.jpg);
+}
+.toursContent .tourGallery .tourRow .img7 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tour-07.jpg);
+}
+.toursContent .tourGallery .tourRow .img8 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tour-08.jpg);
+}
+.toursContent .tourGallery .tourRow .img9 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tour-09.jpg);
+}
+
+@media only screen and (max-width: 1145px) {
+  .toursContent .tourGallery {
+    width: 240px;
+    flex-direction: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .toursContent .tourGallery .tourRow {
+    width: 240px;
+    flex-direction: center;
+    flex-wrap: wrap;
+  }
+  .toursContent .tourGallery .tourRow .tour {
+    margin-bottom: 50px;
+  }
+}
 @font-face {
-  font-family: proxNovaReg;
-  src: url(../assets/fonts/ProximaNova-Regular.ttf);
+  font-family: proxNovaLight;
+  src: url(../assets/fonts/Proxima-Nova-Thin.ttf);
 }

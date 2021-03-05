@@ -44,4 +44,10 @@
   font-size: $mainFont19;
   font-family: $mainType;
   color: $white;
+  a {
+    font-size: $mainFont19;
+    font-family: $mainType;
+    color: $white;
+    text-decoration: none;
+  }
 }
