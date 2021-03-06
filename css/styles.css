@@ -809,3 +809,234 @@ nav .lineBlack .linksBlack p {
   font-family: proxNovaLight;
   src: url(../assets/fonts/Proxima-Nova-Thin.ttf);
 }
+.tourPackageBG {
+  min-height: 800px;
+  width: auto;
+}
+.tourPackageBG .tourPackageImages {
+  min-height: 800px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.tourPackageBG .tourPackageImages .tourPackageBigImage {
+  height: 410px;
+  width: 100%;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tourPackageBG .tourPackageImages .tourPackageBigImage h1 {
+  font-size: 75px;
+  font-family: proxNovaLight;
+  color: white;
+  margin-left: 32px;
+}
+.tourPackageBG .tourPackageImages .tourPackageBigImage h2 {
+  font-size: 25px;
+  font-family: proxNovaLight;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 16px;
+}
+.tourPackageBG .tourPackageImages .ILmain {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tour-01.jpg);
+}
+.tourPackageBG .tourPackageImages .USmain {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tour-02.jpg);
+}
+.tourPackageBG .tourPackageImages .AUmain {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tour-03.jpg);
+}
+.tourPackageBG .tourPackageImages .NZmain {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tour-04.jpg);
+}
+.tourPackageBG .tourPackageImages .FRmain {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tour-05.jpg);
+}
+.tourPackageBG .tourPackageImages .EGmain {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tour-06.jpg);
+}
+.tourPackageBG .tourPackageImages .JPmain {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tour-07.jpg);
+}
+.tourPackageBG .tourPackageImages .CAmain {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tour-08.jpg);
+}
+.tourPackageBG .tourPackageImages .AEmain {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/tour-09.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet {
+  min-height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .tourPackageSmallImage {
+  height: 350px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .IL1 {
+  background-image: url(../assets/images/israel-tour-01.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .IL2 {
+  background-image: url(../assets/images/israel-tour-02.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .IL3 {
+  background-image: url(../assets/images/israel-tour-03.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .US1 {
+  background-image: url(../assets/images/usa-tour-01.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .US2 {
+  background-image: url(../assets/images/usa-tour-02.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .US3 {
+  background-image: url(../assets/images/usa-tour-03.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .AU1 {
+  background-image: url(../assets/images/aus-tour-01.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .AU2 {
+  background-image: url(../assets/images/aus-tour-02.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .AU3 {
+  background-image: url(../assets/images/aus-tour-03.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .NZ1 {
+  background-image: url(../assets/images/nz-tour-01.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .NZ2 {
+  background-image: url(../assets/images/nz-tour-02.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .NZ3 {
+  background-image: url(../assets/images/nz-tour-03.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .FR1 {
+  background-image: url(../assets/images/france-tour-01.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .FR2 {
+  background-image: url(../assets/images/france-tour-02.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .FR3 {
+  background-image: url(../assets/images/france-tour-03.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .EG1 {
+  background-image: url(../assets/images/egypt-tour-01.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .EG2 {
+  background-image: url(../assets/images/egypt-tour-02.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .EG3 {
+  background-image: url(../assets/images/egypt-tour-03.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .JP1 {
+  background-image: url(../assets/images/japan-tour-01.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .JP2 {
+  background-image: url(../assets/images/japan-tour-02.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .JP3 {
+  background-image: url(../assets/images/japan-tour-03.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .CA1 {
+  background-image: url(../assets/images/canada-tour-01.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .CA2 {
+  background-image: url(../assets/images/canada-tour-02.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .CA3 {
+  background-image: url(../assets/images/canada-tour-03.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .AE1 {
+  background-image: url(../assets/images/uae-tour-01.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .AE2 {
+  background-image: url(../assets/images/uae-tour-02.jpg);
+}
+.tourPackageBG .tourPackageImages .tourPackageImageSet .AE3 {
+  background-image: url(../assets/images/uae-tour-03.jpg);
+}
+
+.tourPackageContent {
+  min-height: 995px;
+  width: auto;
+}
+.tourPackageContent .tourPackageCalender {
+  min-height: 890px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.tourPackageContent .tourPackageCalender .tourPackageThreeDays {
+  min-height: 775px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.tourPackageContent .tourPackageCalender .tourPackageThreeDays .tourPackageDay {
+  min-height: 220px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.tourPackageContent .tourPackageCalender .tourPackageThreeDays .tourPackageDay .tourPackageDayTitle {
+  height: 80px;
+  width: 235px;
+  position: relative;
+}
+.tourPackageContent .tourPackageCalender .tourPackageThreeDays .tourPackageDay .tourPackageDayTitle .titleLine {
+  height: 2px;
+  width: 70%;
+  background-color: black;
+  bottom: 0;
+  position: absolute;
+}
+.tourPackageContent .tourPackageCalender .tourPackageThreeDays .tourPackageDay .tourPackageDayTitle h1 {
+  font-size: 60px;
+  font-family: proxNovaLight;
+  color: black;
+}
+.tourPackageContent .tourPackageCalender .tourPackageThreeDays .tourPackageDay .tourPackageDayWords {
+  min-height: 100px;
+  width: auto;
+}
+.tourPackageContent .tourPackageCalender .tourPackageThreeDays .tourPackageDay .tourPackageDayWords p {
+  font-size: 19px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+}
+
+@media only screen and (max-width: 1180px) {
+  .tourPackageBG .tourPackageImages .tourPackageBigImage {
+    margin-bottom: 50px;
+  }
+  .tourPackageBG .tourPackageImages .tourPackageImageSet {
+    width: 300px;
+    margin: 0 auto;
+    flex-direction: center;
+    flex-wrap: wrap;
+  }
+  .tourPackageBG .tourPackageImages .tourPackageImageSet .tourPackageSmallImage {
+    margin-bottom: 50px;
+  }
+}
+@font-face {
+  font-family: proxNovaLight;
+  src: url(../assets/fonts/Proxima-Nova-Thin.ttf);
+}
